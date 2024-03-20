@@ -1,0 +1,102 @@
+<body>h1 {
+    text-align: center;
+}
+
+p {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+}
+
+img {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border: 10px saddlebrown;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    font-size: 18px;
+    margin: 40px auto 40px auto;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 40px;
+    border-radius: 40px;
+    margin: 30px auto;
+    border: 1px solid #7c52ef;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background: blueviolet;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+body {
+    background: radial-gradient(circle at 10% 20%,
+            rgb(45, 92, 112) 0%,
+            rgb(116, 120, 200) 90%);
+}
+
+h2 {
+    font-weight: lighter;
+    text-align: center;
+    color: rgba(12, 1, 11, 0.989);
+}
+
+.regular-link {
+    text-decoration: none;
+    /* Remove the underline */
+    color: inherit;
+    /* Maintain the same text color as the surrounding text */
+    cursor: default;
+    /* Change the cursor to default, indicating it's not clickable */
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul {
+    text-align: center;
+}
+
+html {
+    font-size: 16pt;
+}
+
+@media screen and (max-width: 1680px) {
+
+    html {
+        font-size: 12pt;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+    html {
+        font-size: 11pt;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    html {
+        font-size: 10pt;
+    }
+
+}
