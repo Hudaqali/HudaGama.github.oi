@@ -99,7 +99,10 @@ img {
     border-radius: 4px;
 }
 
-
+.intake{
+    color: white;
+    
+}
 body {
     background-color:#a393eb;
 }
@@ -162,7 +165,8 @@ a.blogweb  {
 /* Project */
 
 #user-input {
-    background-color: #ffffff;
+    background-color: #bf9494;
+    border-radius:40px;
     margin: 20px auto;
     padding: 20px;
     width: 80%;
@@ -173,6 +177,7 @@ a.blogweb  {
 form {
     display: flex;
     flex-direction: column;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 35%, #d6249f 40%, #285AEB 100%);
 }
 
 label,
@@ -180,6 +185,7 @@ input,
 select,
 button {
     margin: 10px 0;
+    background-color: #121111;
 }
 
 button {
@@ -196,11 +202,12 @@ button:hover {
 
 #workout-plan,
 #nutrition-advice {
-    background-color: #e9ecef;
+    background-color:black;
     margin: 20px auto;
     padding: 20px;
     width: 80%;
     max-width: 600px;
+    border-radius: 40px;
 }
 
 
